@@ -155,3 +155,11 @@ set_permissions() {
 }
 
 # You can add more functions to assist your custom script code
+# Edit the resolv conf file if it exist
+resolve_conf() {
+  if [ -a /system/etc/resolv.conf ]; then
+    mkdir -p $MODPATH/system/etc/
+    printf "nameserver 223.5.5.5\nnameserver 119.29.29.29" >> $MODPATH/system/etc/resolv.conf
+    touch $MODPATH/auto_mount
+  fi
+}
