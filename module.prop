@@ -1,6 +1,6 @@
 id=raymodule
 name=Ray's Module
-version=v1.6
-versionCode=16
+version=v1.5
+versionCode=15
 author=Ray
-description=Remove MCS. Remove service.cn.google.xml. Infinity google photo storage. Github hosts. My custom DNS.
+description=Remove MCS. Remove service.cn.google.xml. Infinity google photo storage. Github hosts.

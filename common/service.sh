@@ -7,8 +7,3 @@
 MODDIR=${0%/*}
 
 # This script will be executed in late_start service mode
-
-iptables -t nat -A OUTPUT -p tcp --dport 53 -j DNAT --to-destination 223.5.5.5:53
-iptables -t nat -A OUTPUT -p udp --dport 53 -j DNAT --to-destination 119.29.29.29:53
-iptables -t nat -I OUTPUT -p tcp --dport 53 -j DNAT --to-destination 223.5.5.5:53
-iptables -t nat -I OUTPUT -p udp --dport 53 -j DNAT --to-destination 119.29.29.29:53
