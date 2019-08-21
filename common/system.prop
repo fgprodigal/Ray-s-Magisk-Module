@@ -2,3 +2,21 @@
 # Example: Change dpi
 # ro.sf.lcd_density=320
 persist.sys.oem.region=CN
+
+net.eth0.dns1=119.29.29.29
+net.eth0.dns2=223.5.5.5
+
+net.dns1=119.29.29.29
+net.dns2=223.5.5.5
+
+net.ppp0.dns1=119.29.29.29
+net.ppp0.dns2=223.5.5.5
+
+net.rmnet0.dns1=119.29.29.29
+net.rmnet0.dns2=223.5.5.5
+
+net.rmnet1.dns1=119.29.29.29
+net.rmnet1.dns2=223.5.5.5
+
+net.pdpbr1.dns1=119.29.29.29
+net.pdpbr1.dns2=223.5.5.5

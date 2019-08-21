@@ -10,4 +10,6 @@
     <allow-in-power-save package="github.tornaco.xposedmoduletest" />
     <allow-in-power-save package="com.xiaomi.xmsf" />
     <allow-in-power-save package="com.oasisfeng.greenify" />
+    <allow-in-power-save package="senra.rixcloud" />
+    <allow-in-power-save package="com.microsoft.office.outlook" />
 </config>
