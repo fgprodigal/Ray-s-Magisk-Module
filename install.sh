@@ -51,8 +51,8 @@ REPLACE_EXAMPLE="
 
 # Construct your own list here
 REPLACE="
-/system/app/MCS
 /system/priv-app/Browser
+/system/priv-app/NearmeBrowser
 "
 
 ##########################################################################################
