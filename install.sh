@@ -51,7 +51,9 @@ REPLACE_EXAMPLE="
 
 # Construct your own list here
 REPLACE="
+/system/app/OPIntelliService
 /system/priv-app/Browser
+/system/priv-app/Houston
 /system/priv-app/NearmeBrowser
 "
 
