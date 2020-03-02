@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <allow-in-power-save package="com.google.android.gms" />
+    <allow-in-power-save package="net.dinglisch.android.taskerm" />
+    <allow-in-power-save package="flar2.exkernelmanager" />
+    <allow-in-power-save package="com.github.shadowsocks" />
+    <allow-in-power-save package="io.github.mobodev.heartbeatfixerforgcm" />
+    <allow-in-power-save package="me.weishu.exp" />
+    <allow-in-power-save package="rikka.appops" />
+    <allow-in-power-save package="github.tornaco.xposedmoduletest" />
+    <allow-in-power-save package="com.xiaomi.xmsf" />
+    <allow-in-power-save package="com.oasisfeng.greenify" />
+    <allow-in-power-save package="senra.rixcloud" />
+    <allow-in-power-save package="com.microsoft.office.outlook" />
+</config>

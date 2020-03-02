@@ -51,10 +51,6 @@ REPLACE_EXAMPLE="
 
 # Construct your own list here
 REPLACE="
-/system/app/OPIntelliService
-/system/priv-app/Browser
-/system/priv-app/Houston
-/system/priv-app/NearmeBrowser
 "
 
 ##########################################################################################
@@ -138,6 +134,7 @@ on_install() {
   # Extend/change the logic to whatever you want
   ui_print "- Extracting module files"
   unzip -o "$ZIPFILE" 'system/*' -d $MODPATH >&2
+  unzip -o "$ZIPFILE" 'product/*' -d $MODPATH >&2
 }
 
 # Only some special files require specific permissions
@@ -148,6 +145,9 @@ set_permissions() {
   # The following is the default rule, DO NOT remove
   set_perm_recursive $MODPATH 0 0 0755 0644
   set_perm  $MODPATH/system/etc/permissions/services.cn.google.xml 0 0 0000 0000
+  set_perm  $MODPATH/system/product/etc/permissions/services.cn.google.xml 0 0 0000 0000
+  set_perm  $MODPATH/system/etc/sysconfig/nexus.xml       0       0       0644
+  set_perm  $MODPATH/system/product/etc/sysconfig/nexus.xml       0       0       0644
 
   # Here are some examples:
   # set_perm_recursive  $MODPATH/system/lib       0     0       0755      0644
