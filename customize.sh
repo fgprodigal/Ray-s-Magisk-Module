@@ -7,5 +7,5 @@ unzip -o "$ZIPFILE" -x 'META-INF/*' -d $MODPATH >&2
 set_perm_recursive $MODPATH 0 0 0755 0644
 set_perm  $MODPATH/system/etc/permissions/services.cn.google.xml 0 0 0000 0000
 set_perm  $MODPATH/system/product/etc/permissions/services.cn.google.xml 0 0 0000 0000
-set_perm  $MODPATH/system/etc/sysconfig/nexus.xml 0 0 0755 0644
-set_perm  $MODPATH/system/product/etc/sysconfig/nexus.xml 0 0 0755 0644
+set_perm  $MODPATH/system/etc/sysconfig/nexus.xml 0 0 0444 0444
+set_perm  $MODPATH/system/product/etc/sysconfig/nexus.xml 0 0 0444 0444
